@@ -1,0 +1,37 @@
+{
+  "name": "hapi-webapi-seed",
+  "version": "0.0.1",
+  "description": "A simple starter project demonstrating the basic concepts of hapi-webapi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install && typings install"
+  },
+  "author": {
+    "name": "Sondre Bjellås",
+    "email": "post-at-sondreb.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sondreb/hapi-webapi-seed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sondreb/hapi-webapi-seed/issues"
+  },
+  "keywords": [
+    "hapi",
+    "webapi",
+    "hapi-webapi",
+    "seed",
+    "api",
+    "microservice"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sondreb/hapi-webapi-seed#readme",
+  "dependencies": {
+    "hapi-webapi": "0.0.1"
+  },
+  "devDependencies": {
+      "typescript": "1.8.7"
+  }
+}
