@@ -2,6 +2,8 @@ node_modules/
 typings/
 *.log
 *.tgz
+*.js
+*.d.ts
 
 # Logs
 logs

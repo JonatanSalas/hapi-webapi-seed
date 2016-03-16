@@ -1,7 +1,7 @@
 /// <reference path="Global.d.ts" />
 "use strict";
 
-import {WebApp, StartOptions} from 'hapi-webapi';
+import {WebApp, StartOptions} from 'hapi-webapi/server';
 import {Startup} from "./Startup";
 
 var options = new StartOptions();

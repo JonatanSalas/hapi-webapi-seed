@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "npm install && typings install"
+    "setup": "npm install && typings install",
+    "build": "tsc",
+    "start": "node src/Server.js"
   },
   "author": {
     "name": "Sondre Bjellås",
@@ -29,7 +31,7 @@
   "license": "MIT",
   "homepage": "https://github.com/sondreb/hapi-webapi-seed#readme",
   "dependencies": {
-    "hapi-webapi": "0.0.1"
+    "hapi-webapi": "0.0.x"
   },
   "devDependencies": {
       "typescript": "1.8.7"

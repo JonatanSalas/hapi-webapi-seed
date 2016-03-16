@@ -1,6 +1,7 @@
 "use strict";
 
-import {ApiController, RoutePrefix, Route, HttpGet, HttpDelete, HttpPut, HttpPost} from 'hapi-webapi';
+import {ApiController} from 'hapi-webapi/controllers';
+import {RoutePrefix, Route, HttpGet, HttpDelete, HttpPut, HttpPost} from 'hapi-webapi/routing';
 
 @RoutePrefix("users")
 export class UsersController extends ApiController {
