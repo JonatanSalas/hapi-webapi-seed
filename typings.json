@@ -2,8 +2,5 @@
   "ambientDependencies": {
     "hapi": "github:DefinitelyTyped/DefinitelyTyped/hapi/hapi.d.ts#78b5a657f9120a4a67913effa2da580b2e35ce74",
     "node": "registry:dt/node#4.0.0+20160316042000"
-  },
-  "dependencies": {
-    "domready": "registry:npm/domready#1.0.8+20160211010015"
   }
 }
